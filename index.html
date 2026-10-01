@@ -10,13 +10,14 @@
 <meta property="og:description" content="See if you qualify for a home improvement consultation with Nest Home Improvements." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://nesthomeimprovements.com/" />
-<meta property="og:image" content="https://nesthomeimprovements.com/og-image.jpg" />
+<meta property="og:image" content="assets/og-image.jpg" />
+<link rel="icon" href="assets/favicon.ico" />
+<link rel="icon" type="image/png" href="assets/favicon.ico" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
 <style>
 :root{
-  /* Nest brand palette */
   --navy:#0B1F3A;
   --navy-dark:#071528;
   --navy-soft:#EEF2F7;
@@ -179,7 +180,7 @@ textarea.field{resize:vertical;min-height:80px;line-height:1.5}
 .space-card.is-selected .space-dot{background:var(--navy);border-color:var(--navy);transform:scale(1.05)}
 .space-card.is-selected .space-dot svg{opacity:1}
 
-/* COMPACT CATEGORY ROWS */
+/* CATEGORY ROWS */
 .cat-row{display:flex;align-items:center;gap:12px;width:100%;padding:11px 14px;background:#fff;border:1.5px solid rgba(11,31,58,.16);border-radius:var(--radius-sm);cursor:pointer;font-family:inherit;text-align:left;margin-bottom:6px;transition:border-color .15s,background .15s,box-shadow .18s;box-shadow:0 1px 3px rgba(11,31,58,.05)}
 .cat-row:hover{border-color:var(--navy);background:var(--navy-soft)}
 .cat-row.is-open{border-color:var(--navy);background:var(--navy-soft);border-bottom-left-radius:0;border-bottom-right-radius:0;box-shadow:0 4px 12px rgba(11,31,58,.12)}
@@ -234,7 +235,6 @@ textarea.field{resize:vertical;min-height:80px;line-height:1.5}
 .budget-included-list li svg{width:13px;height:13px;color:#A8D19B;flex-shrink:0;margin-top:3px}
 .budget-included-note{margin-top:10px;padding-top:10px;border-top:1px dashed rgba(168,209,155,.3);font-size:.75rem;color:rgba(255,255,255,.75);line-height:1.5}
 .budget-included-note .partner{color:#A8D19B;font-weight:700}
-
 .budget-decline{background:linear-gradient(160deg,var(--navy) 0%,var(--navy-dark) 100%);border-radius:var(--radius);padding:22px 20px;text-align:center;color:var(--white)}
 .budget-decline h3{font-size:1.0625rem;font-weight:800;margin-bottom:8px;color:var(--white)}
 .budget-decline p{font-size:.8125rem;color:rgba(255,255,255,.8);line-height:1.55;margin-bottom:16px;max-width:320px;margin-left:auto;margin-right:auto}
@@ -260,7 +260,6 @@ textarea.field{resize:vertical;min-height:80px;line-height:1.5}
 .quiz-success .btn-ghost:hover{background:rgba(255,255,255,.18);border-color:rgba(255,255,255,.5)}
 .quiz-success .btn-primary{background:var(--white);color:var(--navy)}
 .quiz-success .btn-primary:hover{background:#F3F4F6}
-
 .quiz-decline{text-align:center;padding:22px 16px 18px}
 .quiz-decline h3{font-size:1.0625rem;font-weight:800;margin-bottom:8px}
 .quiz-decline p{color:var(--muted);font-size:.875rem;max-width:320px;margin:0 auto 18px;line-height:1.55}
@@ -414,7 +413,7 @@ textarea.field{resize:vertical;min-height:80px;line-height:1.5}
 
 <header class="nav">
   <div class="container nav-inner">
-    <a href="#top" class="logo"><img src="assets/img/nest-logo.svg" alt="Nest Home Improvements" /></a>
+    <a href="#top" class="logo"><img src="assets/nest-logo.svg" alt="Nest Home Improvements" /></a>
     <nav class="nav-links" aria-label="Primary">
       <a href="#how-it-works">How It Works</a>
       <a href="#what-we-do">What We Do</a>
@@ -441,7 +440,7 @@ textarea.field{resize:vertical;min-height:80px;line-height:1.5}
 
 <section class="hero">
   <div class="hero-bg" aria-hidden="true">
-    <img src="https://placehold.co/1920x1200/0B1F3A/FFFFFF?text=Hero+Interior" alt="" width="1920" height="1200" fetchpriority="high" />
+    <img src="assets/hero-interior.jpg" alt="" width="1920" height="1200" fetchpriority="high" />
   </div>
   <div class="container hero-grid">
     <div class="hero-copy">
@@ -730,8 +729,8 @@ textarea.field{resize:vertical;min-height:80px;line-height:1.5}
 
       <div>
         <div class="ba" aria-label="Before and after transformation">
-          <img class="ba-img" src="https://placehold.co/1600x1100/0B1F3A/FFFFFF?text=After" alt="After" />
-          <div class="ba-before-clip"><img class="ba-img" src="https://placehold.co/1600x1100/E7EAE7/242B33?text=Before" alt="Before" /></div>
+          <img class="ba-img" src="assets/about-after.jpg" alt="After" />
+          <div class="ba-before-clip"><img class="ba-img" src="assets/about-before.jpg" alt="Before" /></div>
           <span class="ba-label before">Before</span><span class="ba-label after">After</span>
           <div class="ba-line" aria-hidden="true"></div>
           <div class="ba-handle" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 4 12 9 18"/><polyline points="15 6 20 12 15 18"/></svg></div>
@@ -763,14 +762,14 @@ textarea.field{resize:vertical;min-height:80px;line-height:1.5}
   <div class="container">
     <div class="scroll-wrap">
       <div class="scroll-rail" role="list">
-        <article class="scroll-card" role="listitem"><div class="scroll-card-img"><img src="https://placehold.co/600x450/E7EAE7/242B33?text=Lighting" alt="Lighting" loading="lazy" /></div><div class="scroll-card-body"><h3>Lighting</h3><p>Better lighting can completely change how a room feels.</p></div></article>
-        <article class="scroll-card" role="listitem"><div class="scroll-card-img"><img src="https://placehold.co/600x450/E7EAE7/242B33?text=Electricals" alt="Electricals" loading="lazy" /></div><div class="scroll-card-body"><h3>Electricals</h3><p>Upgrade switches, sockets, lighting points, and entertainment setups.</p></div></article>
-        <article class="scroll-card" role="listitem"><div class="scroll-card-img"><img src="https://placehold.co/600x450/E7EAE7/242B33?text=Furniture" alt="Furniture" loading="lazy" /></div><div class="scroll-card-body"><h3>Furniture</h3><p>Replace, add, or rethink the furniture that shapes the room.</p></div></article>
-        <article class="scroll-card" role="listitem"><div class="scroll-card-img"><img src="https://placehold.co/600x450/E7EAE7/242B33?text=Walls" alt="Walls" loading="lazy" /></div><div class="scroll-card-body"><h3>Walls</h3><p>Painting, panels, wallpaper, mirrors, and feature walls.</p></div></article>
-        <article class="scroll-card" role="listitem"><div class="scroll-card-img"><img src="https://placehold.co/600x450/E7EAE7/242B33?text=Flooring" alt="Flooring" loading="lazy" /></div><div class="scroll-card-body"><h3>Flooring</h3><p>Change the foundation of the room with the right flooring.</p></div></article>
-        <article class="scroll-card" role="listitem"><div class="scroll-card-img"><img src="https://placehold.co/600x450/E7EAE7/242B33?text=Storage" alt="Storage" loading="lazy" /></div><div class="scroll-card-body"><h3>Storage</h3><p>Make better use of the space you already have.</p></div></article>
-        <article class="scroll-card" role="listitem"><div class="scroll-card-img"><img src="https://placehold.co/600x450/E7EAE7/242B33?text=Windows" alt="Windows" loading="lazy" /></div><div class="scroll-card-body"><h3>Windows</h3><p>Curtains, blinds, and window treatments that complete the room.</p></div></article>
-        <article class="scroll-card" role="listitem"><div class="scroll-card-img"><img src="https://placehold.co/600x450/E7EAE7/242B33?text=Decor" alt="Décor" loading="lazy" /></div><div class="scroll-card-body"><h3>Décor</h3><p>Rugs, mirrors, artwork, and styling details that bring everything together.</p></div></article>
+        <article class="scroll-card" role="listitem"><div class="scroll-card-img"><img src="assets/service-lighting.jpg" alt="Lighting" loading="lazy" /></div><div class="scroll-card-body"><h3>Lighting</h3><p>Better lighting can completely change how a room feels.</p></div></article>
+        <article class="scroll-card" role="listitem"><div class="scroll-card-img"><img src="assets/service-electricals.jpg" alt="Electricals" loading="lazy" /></div><div class="scroll-card-body"><h3>Electricals</h3><p>Upgrade switches, sockets, lighting points, and entertainment setups.</p></div></article>
+        <article class="scroll-card" role="listitem"><div class="scroll-card-img"><img src="assets/service-furniture.jpg" alt="Furniture" loading="lazy" /></div><div class="scroll-card-body"><h3>Furniture</h3><p>Replace, add, or rethink the furniture that shapes the room.</p></div></article>
+        <article class="scroll-card" role="listitem"><div class="scroll-card-img"><img src="assets/service-walls.jpg" alt="Walls" loading="lazy" /></div><div class="scroll-card-body"><h3>Walls</h3><p>Painting, panels, wallpaper, mirrors, and feature walls.</p></div></article>
+        <article class="scroll-card" role="listitem"><div class="scroll-card-img"><img src="assets/service-flooring.jpg" alt="Flooring" loading="lazy" /></div><div class="scroll-card-body"><h3>Flooring</h3><p>Change the foundation of the room with the right flooring.</p></div></article>
+        <article class="scroll-card" role="listitem"><div class="scroll-card-img"><img src="assets/service-storage.jpg" alt="Storage" loading="lazy" /></div><div class="scroll-card-body"><h3>Storage</h3><p>Make better use of the space you already have.</p></div></article>
+        <article class="scroll-card" role="listitem"><div class="scroll-card-img"><img src="assets/service-windows.jpg" alt="Windows" loading="lazy" /></div><div class="scroll-card-body"><h3>Windows</h3><p>Curtains, blinds, and window treatments that complete the room.</p></div></article>
+        <article class="scroll-card" role="listitem"><div class="scroll-card-img"><img src="assets/service-decor.jpg" alt="Décor" loading="lazy" /></div><div class="scroll-card-body"><h3>Décor</h3><p>Rugs, mirrors, artwork, and styling details that bring everything together.</p></div></article>
       </div>
     </div>
     <span class="scroll-hint" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"/></svg>Swipe to see more</span>
@@ -782,10 +781,10 @@ textarea.field{resize:vertical;min-height:80px;line-height:1.5}
     <span class="eyebrow">Rooms</span>
     <h2 class="section-title">Every room has more potential.</h2>
     <div class="rooms-rail" role="list">
-      <article class="room-card" role="listitem"><div class="room-card-img"><img src="https://placehold.co/800x1000/E7EAE7/242B33?text=Living+Room" alt="Living room" loading="lazy" /></div><div class="room-card-body"><h3>Living Room</h3><p>Make the room feel more intentional, comfortable, and complete.</p></div></article>
-      <article class="room-card" role="listitem"><div class="room-card-img"><img src="https://placehold.co/800x1000/E7EAE7/242B33?text=Bedroom" alt="Bedroom" loading="lazy" /></div><div class="room-card-body"><h3>Bedroom</h3><p>Create a space that feels more personal, comfortable, and organised.</p></div></article>
-      <article class="room-card" role="listitem"><div class="room-card-img"><img src="https://placehold.co/800x1000/E7EAE7/242B33?text=Kitchen" alt="Kitchen" loading="lazy" /></div><div class="room-card-body"><h3>Kitchen</h3><p>Improve the look, functionality, and feel of the kitchen.</p></div></article>
-      <article class="room-card" role="listitem"><div class="room-card-img"><img src="https://placehold.co/800x1000/E7EAE7/242B33?text=Bathroom" alt="Bathroom" loading="lazy" /></div><div class="room-card-body"><h3>Bathroom</h3><p>Refresh the finishes, lighting, storage, and overall feel.</p></div></article>
+      <article class="room-card" role="listitem"><div class="room-card-img"><img src="assets/room-living.jpg" alt="Living room" loading="lazy" /></div><div class="room-card-body"><h3>Living Room</h3><p>Make the room feel more intentional, comfortable, and complete.</p></div></article>
+      <article class="room-card" role="listitem"><div class="room-card-img"><img src="assets/room-bedroom.jpg" alt="Bedroom" loading="lazy" /></div><div class="room-card-body"><h3>Bedroom</h3><p>Create a space that feels more personal, comfortable, and organised.</p></div></article>
+      <article class="room-card" role="listitem"><div class="room-card-img"><img src="assets/room-kitchen.jpg" alt="Kitchen" loading="lazy" /></div><div class="room-card-body"><h3>Kitchen</h3><p>Improve the look, functionality, and feel of the kitchen.</p></div></article>
+      <article class="room-card" role="listitem"><div class="room-card-img"><img src="assets/room-bathroom.jpg" alt="Bathroom" loading="lazy" /></div><div class="room-card-body"><h3>Bathroom</h3><p>Refresh the finishes, lighting, storage, and overall feel.</p></div></article>
     </div>
     <span class="scroll-hint" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"/></svg>Swipe to see more</span>
   </div>
@@ -867,8 +866,8 @@ textarea.field{resize:vertical;min-height:80px;line-height:1.5}
     <div class="projects-grid">
       <article class="project-card">
         <div class="ba" aria-label="Project before and after">
-          <img class="ba-img" src="https://placehold.co/1200x750/0B1F3A/FFFFFF?text=After" alt="After" loading="lazy" />
-          <div class="ba-before-clip"><img class="ba-img" src="https://placehold.co/1200x750/E7EAE7/242B33?text=Before" alt="Before" loading="lazy" /></div>
+          <img class="ba-img" src="assets/project-1-after.jpg" alt="After" loading="lazy" />
+          <div class="ba-before-clip"><img class="ba-img" src="assets/project-1-before.jpg" alt="Before" loading="lazy" /></div>
           <span class="ba-label before">Before</span><span class="ba-label after">After</span>
           <div class="ba-line" aria-hidden="true"></div>
           <div class="ba-handle" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 4 12 9 18"/><polyline points="15 6 20 12 15 18"/></svg></div>
@@ -883,8 +882,8 @@ textarea.field{resize:vertical;min-height:80px;line-height:1.5}
       </article>
       <article class="project-card">
         <div class="ba" aria-label="Project before and after">
-          <img class="ba-img" src="https://placehold.co/1200x750/0B1F3A/FFFFFF?text=After" alt="After" loading="lazy" />
-          <div class="ba-before-clip"><img class="ba-img" src="https://placehold.co/1200x750/E7EAE7/242B33?text=Before" alt="Before" loading="lazy" /></div>
+          <img class="ba-img" src="assets/project-2-after.jpg" alt="After" loading="lazy" />
+          <div class="ba-before-clip"><img class="ba-img" src="assets/project-2-before.jpg" alt="Before" loading="lazy" /></div>
           <span class="ba-label before">Before</span><span class="ba-label after">After</span>
           <div class="ba-line" aria-hidden="true"></div>
           <div class="ba-handle" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 4 12 9 18"/><polyline points="15 6 20 12 15 18"/></svg></div>
@@ -909,7 +908,7 @@ textarea.field{resize:vertical;min-height:80px;line-height:1.5}
       <span class="quote-mark" aria-hidden="true">"</span>
       <blockquote><p>[Real customer quote to be inserted here. Do not publish a testimonial that has not been approved by the customer.]</p></blockquote>
       <div class="testimonial-author">
-        <div class="testimonial-avatar"><img src="https://placehold.co/120x120/E7EAE7/242B33?text=%20" alt="" loading="lazy" /></div>
+        <div class="testimonial-avatar"><img src="assets/testimonial-avatar.jpg" alt="" loading="lazy" /></div>
         <div><strong>[Customer Name]</strong><span>[Project type] · [Location]</span></div>
       </div>
     </div>
@@ -950,7 +949,7 @@ textarea.field{resize:vertical;min-height:80px;line-height:1.5}
 
 <section class="section">
   <div class="container">
-    <div class="final-cta" style="--cta-img: url('https://placehold.co/1600x900/0B1F3A/FFFFFF?text=Final+CTA+Image');">
+    <div class="final-cta" style="--cta-img: url('assets/final-cta.jpg');">
       <div class="final-cta-inner">
         <span class="eyebrow" style="color:#A8D19B;">Start Here</span>
         <h2>See what your space could look like.</h2>
@@ -968,7 +967,7 @@ textarea.field{resize:vertical;min-height:80px;line-height:1.5}
   <div class="container">
     <div class="footer-grid">
       <div>
-        <a href="#top" class="logo"><img src="assets/img/nest-logo.svg" alt="Nest Home Improvements" /></a>
+        <a href="#top" class="logo"><img src="assets/nest-logo.svg" alt="Nest Home Improvements" /></a>
         <p class="footer-tagline">Home improvements, made simpler.</p>
       </div>
       <div>
@@ -1048,10 +1047,10 @@ function track(event, payload){
   };
 
   var SPACES = [
-    { value:'Living Room', label:'Living Room', img:'https://placehold.co/400x400/E7EAE7/242B33?text=Living+Room' },
-    { value:'Bedroom', label:'Bedroom', img:'https://placehold.co/400x400/E7EAE7/242B33?text=Bedroom' },
-    { value:'Kitchen', label:'Kitchen', img:'https://placehold.co/400x400/E7EAE7/242B33?text=Kitchen' },
-    { value:'Bathroom', label:'Bathroom', img:'https://placehold.co/400x400/E7EAE7/242B33?text=Bathroom' }
+    { value:'Living Room', label:'Living Room', img:'assets/room-living.jpg' },
+    { value:'Bedroom', label:'Bedroom', img:'assets/room-bedroom.jpg' },
+    { value:'Kitchen', label:'Kitchen', img:'assets/room-kitchen.jpg' },
+    { value:'Bathroom', label:'Bathroom', img:'assets/room-bathroom.jpg' }
   ];
 
   var CATEGORY_ITEMS = {
